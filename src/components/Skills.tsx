@@ -3,19 +3,19 @@ const Skills = () => {
   const skillCategories = [
     {
       title: "Python Backend Development",
-      skills: ["Python", "Django", "Flask", "FastAPI", "SQLAlchemy", "Celery"],
+      skills: ["Python", "Django", "Flask"],
       icon: "🐍",
       gradient: "from-[#007dff] to-[#009fff]"
     },
     {
       title: "Database & APIs",
-      skills: ["Oracle", "MySQL", "PostgreSQL", "RESTful APIs", "GraphQL", "Redis"],
+      skills: ["Oracle", "MySQL", "RESTful APIs"],
       icon: "🗄️",
       gradient: "from-[#009fff] to-[#00aaff]"
     },
     {
       title: "Web Technologies",
-      skills: ["JavaScript", "HTML5", "CSS3", "Bootstrap", "AJAX", "JSON"],
+      skills: ["JavaScript", "HTML5", "CSS3", "Bootstrap", "JSON"],
       icon: "🌐",
       gradient: "from-[#00aaff] to-[#0099ff]"
     },
