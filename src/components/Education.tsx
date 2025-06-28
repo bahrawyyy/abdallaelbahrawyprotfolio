@@ -4,12 +4,12 @@ const Education = () => {
     <section id="education" className="py-20 px-4 bg-white">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold bg-gradient-to-r from-[#007dff] to-[#37f0e4] bg-clip-text text-transparent mb-4">Education</h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-[#007dff] to-[#37f0e4] mx-auto"></div>
+          <h2 className="text-4xl font-bold bg-gradient-to-r from-[#007dff] to-[#009fff] bg-clip-text text-transparent mb-4">Education</h2>
+          <div className="w-24 h-1 bg-gradient-to-r from-[#007dff] to-[#009fff] mx-auto"></div>
         </div>
         
         <div className="max-w-4xl mx-auto">
-          <div className="bg-gradient-to-br from-[#007dff] to-[#37f0e4] rounded-lg p-8 text-white shadow-xl hover:shadow-2xl transition-shadow">
+          <div className="bg-gradient-to-br from-[#007dff] to-[#009fff] rounded-lg p-8 text-white shadow-xl hover:shadow-2xl transition-shadow">
             <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-6">
               <div>
                 <h3 className="text-2xl font-semibold mb-2">Bachelor of Science in Computer and System Engineering</h3>

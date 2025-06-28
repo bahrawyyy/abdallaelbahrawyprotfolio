@@ -11,25 +11,25 @@ const Skills = () => {
       title: "Database & APIs",
       skills: ["Oracle", "MySQL", "PostgreSQL", "RESTful APIs", "GraphQL", "Redis"],
       icon: "🗄️",
-      gradient: "from-[#00aaff] to-[#37f0e4]"
+      gradient: "from-[#009fff] to-[#00aaff]"
     },
     {
       title: "Web Technologies",
       skills: ["JavaScript", "HTML5", "CSS3", "Bootstrap", "AJAX", "JSON"],
       icon: "🌐",
-      gradient: "from-[#37f0e4] to-[#5ad9f9]"
+      gradient: "from-[#00aaff] to-[#0099ff]"
     },
     {
       title: "DevOps & Cloud",
       skills: ["Docker", "Kubernetes", "Jenkins", "Ansible", "AWS", "Git"],
       icon: "☁️",
-      gradient: "from-[#009fff] to-[#00aaff]"
+      gradient: "from-[#0099ff] to-[#007dff]"
     },
     {
       title: "System & Tools",
       skills: ["Linux Administration", "Bash Scripting", "Crystal Reports", "ITSM Tools"],
       icon: "⚙️",
-      gradient: "from-[#5ad9f9] to-[#37f0e4]"
+      gradient: "from-[#007dff] to-[#00aaff]"
     }
   ];
 
@@ -37,8 +37,8 @@ const Skills = () => {
     <section id="skills" className="py-20 px-4 bg-white">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold bg-gradient-to-r from-[#007dff] to-[#37f0e4] bg-clip-text text-transparent mb-4">Technical Skills</h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-[#007dff] to-[#37f0e4] mx-auto"></div>
+          <h2 className="text-4xl font-bold bg-gradient-to-r from-[#007dff] to-[#009fff] bg-clip-text text-transparent mb-4">Technical Skills</h2>
+          <div className="w-24 h-1 bg-gradient-to-r from-[#007dff] to-[#009fff] mx-auto"></div>
           <p className="text-gray-600 mt-6 text-lg max-w-2xl mx-auto">
             Comprehensive backend development skills with focus on Python frameworks and scalable system design
           </p>

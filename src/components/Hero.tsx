@@ -11,7 +11,7 @@ const Hero = () => {
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 px-4">
       <div className="max-w-4xl mx-auto text-center animate-fade-in">
         <div className="mb-8">
-          <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-[#007dff] to-[#37f0e4] bg-clip-text text-transparent mb-4 animate-scale-in">
+          <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-[#007dff] to-[#009fff] bg-clip-text text-transparent mb-4 animate-scale-in">
             Abdalla E. Elbahrawy
           </h1>
           <h2 className="text-2xl md:text-3xl text-gray-700 mb-6 font-medium">
@@ -43,7 +43,7 @@ const Hero = () => {
         </div>
 
         <div className="animate-bounce cursor-pointer" onClick={scrollToAbout}>
-          <ArrowDown className="w-6 h-6 mx-auto text-[#5ad9f9] hover:text-[#37f0e4] transition-colors" />
+          <ArrowDown className="w-6 h-6 mx-auto text-[#009fff] hover:text-[#007dff] transition-colors" />
         </div>
       </div>
     </section>

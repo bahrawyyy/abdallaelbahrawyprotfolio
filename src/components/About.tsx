@@ -4,8 +4,8 @@ const About = () => {
     <section id="about" className="py-20 px-4 bg-white">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold bg-gradient-to-r from-[#007dff] to-[#37f0e4] bg-clip-text text-transparent mb-4">About Me</h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-[#007dff] to-[#37f0e4] mx-auto"></div>
+          <h2 className="text-4xl font-bold bg-gradient-to-r from-[#007dff] to-[#009fff] bg-clip-text text-transparent mb-4">About Me</h2>
+          <div className="w-24 h-1 bg-gradient-to-r from-[#007dff] to-[#009fff] mx-auto"></div>
         </div>
         
         <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -27,15 +27,15 @@ const About = () => {
                 <h3 className="font-semibold text-[#007dff] mb-2">Python Expertise</h3>
                 <p className="text-[#009fff]">Django, Flask, FastAPI, SQLAlchemy</p>
               </div>
-              <div className="bg-gradient-to-br from-[#37f0e4]/10 to-[#5ad9f9]/10 p-6 rounded-lg hover:shadow-md transition-shadow border border-[#37f0e4]/20">
-                <h3 className="font-semibold text-[#37f0e4] mb-2">Database Systems</h3>
-                <p className="text-[#5ad9f9]">Oracle, MySQL, PostgreSQL, Redis</p>
+              <div className="bg-gradient-to-br from-[#009fff]/10 to-[#00aaff]/10 p-6 rounded-lg hover:shadow-md transition-shadow border border-[#009fff]/20">
+                <h3 className="font-semibold text-[#009fff] mb-2">Database Systems</h3>
+                <p className="text-[#00aaff]">Oracle, MySQL, PostgreSQL, Redis</p>
               </div>
             </div>
           </div>
           
           <div className="relative">
-            <div className="bg-gradient-to-br from-[#007dff] to-[#37f0e4] p-8 rounded-lg text-white shadow-xl">
+            <div className="bg-gradient-to-br from-[#007dff] to-[#009fff] p-8 rounded-lg text-white shadow-xl">
               <h3 className="text-2xl font-semibold mb-6">Quick Stats</h3>
               <div className="space-y-4">
                 <div className="flex justify-between items-center">
