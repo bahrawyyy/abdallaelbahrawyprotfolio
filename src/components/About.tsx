@@ -39,16 +39,8 @@ const About = () => {
               <h3 className="text-2xl font-semibold mb-6">Quick Stats</h3>
               <div className="space-y-4">
                 <div className="flex justify-between items-center">
-                  <span>Python Experience</span>
-                  <span className="font-semibold">3+ Years</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span>APIs Built</span>
-                  <span className="font-semibold">15+</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span>Database Integrations</span>
-                  <span className="font-semibold">10+</span>
+                  <span>Work Experience</span>
+                  <span className="font-semibold">+1 Year</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span>Current Role</span>
