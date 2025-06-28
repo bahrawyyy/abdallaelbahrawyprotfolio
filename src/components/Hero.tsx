@@ -11,7 +11,7 @@ const Hero = () => {
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 px-4">
       <div className="max-w-4xl mx-auto text-center animate-fade-in">
         <div className="mb-8">
-          <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-4 animate-scale-in">
+          <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-[#007dff] to-[#37f0e4] bg-clip-text text-transparent mb-4 animate-scale-in">
             Abdalla E. Elbahrawy
           </h1>
           <h2 className="text-2xl md:text-3xl text-gray-700 mb-6 font-medium">
@@ -27,7 +27,7 @@ const Hero = () => {
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
           <Button 
             size="lg" 
-            className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-3 text-lg transition-all duration-300 hover:scale-105 shadow-lg"
+            className="bg-gradient-to-r from-[#007dff] to-[#009fff] hover:from-[#0070e6] hover:to-[#008fe6] text-white px-8 py-3 text-lg transition-all duration-300 hover:scale-105 shadow-lg"
             onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
           >
             View My Work
@@ -35,7 +35,7 @@ const Hero = () => {
           <Button 
             variant="outline" 
             size="lg" 
-            className="border-blue-300 text-blue-700 hover:bg-blue-50 px-8 py-3 text-lg transition-all duration-300 hover:scale-105"
+            className="border-[#007dff] text-[#007dff] hover:bg-blue-50 px-8 py-3 text-lg transition-all duration-300 hover:scale-105"
             onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
           >
             Get In Touch
@@ -43,7 +43,7 @@ const Hero = () => {
         </div>
 
         <div className="animate-bounce cursor-pointer" onClick={scrollToAbout}>
-          <ArrowDown className="w-6 h-6 mx-auto text-blue-400 hover:text-blue-600 transition-colors" />
+          <ArrowDown className="w-6 h-6 mx-auto text-[#5ad9f9] hover:text-[#37f0e4] transition-colors" />
         </div>
       </div>
     </section>

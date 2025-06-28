@@ -5,31 +5,31 @@ const Skills = () => {
       title: "Python Backend Development",
       skills: ["Python", "Django", "Flask", "FastAPI", "SQLAlchemy", "Celery"],
       icon: "🐍",
-      gradient: "from-blue-500 to-blue-600"
+      gradient: "from-[#007dff] to-[#009fff]"
     },
     {
       title: "Database & APIs",
       skills: ["Oracle", "MySQL", "PostgreSQL", "RESTful APIs", "GraphQL", "Redis"],
       icon: "🗄️",
-      gradient: "from-green-500 to-green-600"
+      gradient: "from-[#00aaff] to-[#37f0e4]"
     },
     {
       title: "Web Technologies",
       skills: ["JavaScript", "HTML5", "CSS3", "Bootstrap", "AJAX", "JSON"],
       icon: "🌐",
-      gradient: "from-purple-500 to-purple-600"
+      gradient: "from-[#37f0e4] to-[#5ad9f9]"
     },
     {
       title: "DevOps & Cloud",
       skills: ["Docker", "Kubernetes", "Jenkins", "Ansible", "AWS", "Git"],
       icon: "☁️",
-      gradient: "from-indigo-500 to-indigo-600"
+      gradient: "from-[#009fff] to-[#00aaff]"
     },
     {
       title: "System & Tools",
       skills: ["Linux Administration", "Bash Scripting", "Crystal Reports", "ITSM Tools"],
       icon: "⚙️",
-      gradient: "from-teal-500 to-teal-600"
+      gradient: "from-[#5ad9f9] to-[#37f0e4]"
     }
   ];
 
@@ -37,8 +37,8 @@ const Skills = () => {
     <section id="skills" className="py-20 px-4 bg-white">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-4">Technical Skills</h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto"></div>
+          <h2 className="text-4xl font-bold bg-gradient-to-r from-[#007dff] to-[#37f0e4] bg-clip-text text-transparent mb-4">Technical Skills</h2>
+          <div className="w-24 h-1 bg-gradient-to-r from-[#007dff] to-[#37f0e4] mx-auto"></div>
           <p className="text-gray-600 mt-6 text-lg max-w-2xl mx-auto">
             Comprehensive backend development skills with focus on Python frameworks and scalable system design
           </p>
